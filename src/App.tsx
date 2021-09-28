@@ -102,6 +102,7 @@ const Map = (props: MapProps) => {
           <>
             <Marker id={1} map={map} coor={{ lat: 10, lng: 10 }}></Marker>
             <Marker id={2} map={map} coor={{ lat: 9.981, lng: 9.998 }}></Marker>
+            <Marker id={2} map={map} coor={{ lat: 9.971, lng: 9.988 }}></Marker>
           </>
           : null}
       </div>
